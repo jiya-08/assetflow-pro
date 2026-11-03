@@ -1,0 +1,14 @@
+{
+  "name": "assetflow-pro",
+  "version": "1.0.0",
+  "description": "AssetFlow Pro - Enterprise Asset Management Full MERN Stack Platform",
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["enterprise-asset-management", "mern-stack", "react", "express", "mongodb"],
+  "author": "AssetFlow Pro Development Team",
+  "license": "ISC"
+}
