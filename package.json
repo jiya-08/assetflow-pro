@@ -2,13 +2,31 @@
   "name": "assetflow-pro",
   "version": "1.0.0",
   "description": "AssetFlow Pro - Enterprise Asset Management Full MERN Stack Platform",
+  "main": "api/index.js",
   "scripts": {
     "server": "cd backend && npm start",
     "client": "cd frontend && npm run dev",
     "seed": "cd backend && npm run seed",
-    "build": "cd frontend && npm run build"
+    "build": "cd frontend && npm run build",
+    "vercel-build": "cd frontend && npm install && npm run build"
   },
-  "keywords": ["enterprise-asset-management", "mern-stack", "react", "express", "mongodb"],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "qrcode": "^1.5.4"
+  },
+  "keywords": [
+    "enterprise-asset-management",
+    "mern-stack",
+    "react",
+    "express",
+    "mongodb"
+  ],
   "author": "AssetFlow Pro Development Team",
   "license": "ISC"
 }
